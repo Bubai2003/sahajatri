@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Chakra+Petch:wght@300&family=Charm&family=Cormorant:ital@1&family=EB+Garamond&family=Gruppo&family=Italiana&family=Italianno&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,200;1,100&family=Noto+Sans+Glagolitic&family=Old+Standard+TT&family=Playfair+Display+SC&family=Playfair+Display:ital@1&family=Poppins:wght@100&family=Rajdhani&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto+Mono:wght@200&family=Roboto+Slab&family=Roboto:wght@300&family=Srisakdi&family=Tilt+Neon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
 *{
     margin:0px;
     padding:0px;
@@ -8,7 +8,7 @@
 /* overflow-x: hidden; */
 }
 
-body {
+/* body {
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,8 @@ body {
     background-attachment: fixed;
     position: relative;
     overflow-x: hidden;
-   /* position: fixed; */
+    
+   
   }
   .body::after{
 content:" ";
@@ -27,13 +28,13 @@ position:absolute;
 background-color: rgba(0, 0, 0, 0.733);
 top:0px;
 left:0px;
-width:100%;
-height:100%;
+width:100vw;
+height:100vh;
 position:fixed;
 padding:2%;
 z-index: -1;
-overflow-x: hidden;
-  }
+overflow: hidden;
+  } */
   
   .header {
     text-align: center;
@@ -123,6 +124,9 @@ margin: auto;
     top:0vh;
     
   } */
+  /* .cricket_data{
+    font-size: 18px;
+   } */
   body {
     margin: 0;
     font-size: 28px;
@@ -568,7 +572,7 @@ width:50vw;
 
 
 .about_club{
-  width:fit-content;
+  width:90%;
   background-color: #00000080;
   height:fit-content;
   color:white;
@@ -595,10 +599,36 @@ width:50vw;
     margin-top:10%;
     display: none;
   } */
-
+  html{
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("https://w.forfun.com/fetch/21/215e3ddf9d2d722a16e435992d354932.jpeg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    
+   
+  }
+  html::before{
+content:" ";
+position:absolute;
+background-color: rgba(0, 0, 0, 0.733);
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+position:fixed;
+padding:2%;
+z-index: -1;
+overflow: hidden;
+  }
 
   .about_club{
-    width:fit-content;
+    width:90%;
     background-color: #00000080;
     height:fit-content;
     color:white;
@@ -622,6 +652,33 @@ width:50vw;
 @media (min-width:701px){
   .gh{
     display:none;
+  }
+  html {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    
+   
+  }
+  html::after{
+content:" ";
+position:absolute;
+background-color: rgba(0, 0, 0, 0.733);
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+position:fixed;
+padding:2%;
+z-index: -1;
+overflow: hidden;
   }
 
   }
@@ -703,6 +760,9 @@ box-shadow: 0 0 0 0px#ff2d7544,
         overflow: hidden;
       
   }
+  .sobar_age{
+    overflow: hidden;
+  }
 .ss_part{
  
     width:300px;
@@ -782,6 +842,10 @@ height:70px;
   .sobar_age video{
     width:100%;
     height:100%;
+    overflow: hidden;
+  }
+  .text_box{
+    overflow: hidden;
   }
   .text-box h2{
     position: absolute;
@@ -949,6 +1013,7 @@ height:70px;
   .sobar_age video{
     width:100%;
     height:100%;
+    overflow: hidden;
   }
   .text-box h2{
     position: absolute;
@@ -967,7 +1032,7 @@ height:70px;
     font-weight:900;
     /* transform: rotate(90deg); */
     mix-blend-mode:multiply;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .club_logo{
     width: 50px;
@@ -1186,7 +1251,7 @@ z-index: 0;
 .sanju{
   transform: scale(0.8);
  position: relative;
- top:1vh;
+ top:0.7vh;
 }
 
 
@@ -1437,7 +1502,7 @@ color:white;
  .sports_picture{
   width:100%;
   height:fit-content;
-  background-color: #070707c7;
+  background-color: #070707a8;
   display: inline-flex;
   overflow-x: scroll;
 overflow-y: hidden;
@@ -1645,10 +1710,14 @@ top:0px
     width:210px;
     height:210px;
     background-color: #000000b6;
-    font-size: 18px;
+    font-size: 17px;
     padding:1%;
-    color:white;
+    color:rgb(255, 255, 255);
     border-radius: 15px;
+   }
+   .PUJO2 pre{
+    font-size: 17px;
+    /* color:#000000; */
    }
    .ending_portion{
     width:90%;
@@ -1657,12 +1726,20 @@ top:0px
     color:white;
     padding:2.5%;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     align-items: center;
     margin-top: 2%;
    }
+   .cricket_data{
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+   }
  }
+
+
+
+ 
  .saraswati_pujo{
   width:80%;
   height:fit-content;
@@ -1693,7 +1770,7 @@ top:0px
  .PUJO1{
   width:210px;
   height:210px;
-  background-color: #00000096;
+  background-color: #00000088;
   overflow: hidden;
   border-radius: 14px;
  }
@@ -1771,4 +1848,213 @@ top:0px
     transform: scale(0.8);
   }
   
+}
+.dd{
+  font-size: 12px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  font-family: 'Roboto Flex', sans-serif;
+}
+#mera{
+  color:#e9379f;
+}
+@media(min-width:701px) {
+  .dd{
+    font-size: 14px;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+}
+.kombol{
+  width:fit-content;
+  height:fit-content;
+  padding:2%;
+}
+
+
+
+/* .PUJO_1{
+  margin-top: 2%;
+  width:100%;
+  height:fit-content;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .PUJO1_2{
+  width:300px;
+  height:210px;
+  background-color: #00000088;
+  overflow: hidden;
+  border-radius: 14px;
+ }
+ .PUJO1_2 img{
+  width:300px;
+  height:210px;
+  object-fit: cover;
+  border-radius: 14px;
+ }
+ .PUJO2_3{
+  width:300px;
+  height:210px;
+  background-color: #000000b6;
+  font-size: 16px;
+  padding:1%;
+  color:white;
+  border-radius: 14px;
+ } */
+
+ .donation{
+  width:80%;
+  height:fit-content;
+  background-color: #495746b4;
+  overflow: hidden;
+ }
+ .donation_1{
+  width:96%;
+  height:fit-content;
+  background-color: #00000060;
+  margin:2%;
+ }
+ .kombol{
+  width:100%;
+  height:fit-content;
+  /* background-color: #00000098; */
+  color:white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border-radius: 12px; */
+  /* margin-bottom: 10%; */
+ }
+ .lekha_kombol{
+  width:270px;
+  height:fit-content;
+  /* background-color: rgba(5, 5, 5, 0.322); */
+  font-size: 20px;
+  padding:2%;
+  color:white;
+  text-align: center;
+ }
+ .pic_kombol{
+  width:310px;
+  height:210px;
+  background-color: rgba(5, 5, 5, 0.719);
+  font-size: 16px;
+ }
+ .pic_kombol img{
+  object-fit: cover;
+  width:310px;
+  height:210px;
+ }
+.line_break{
+  width:100%;
+  height:3px;
+  background-color: #495746b4;
+}
+.about_blood_camp{
+  width:96%;
+  height:fit-content;
+  background-color:#0000007a;
+  padding:2%;
+  border-radius: 12px;
+  font-size: 20px;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 2%;
+}
+ @media (max-width:700px){
+  .lekha_kombol{
+    width:280px;
+    height:fit-content;
+    /* background-color: rgba(5, 5, 5, 0.322); */
+    font-size: 17px;
+    padding:2%;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+   }
+   .pic_kombol{
+    width:270px;
+    height:fit-content;
+    background-color: rgba(5, 5, 5, 0.719);
+    font-size: 16px;
+   }
+   .pic_kombol img{
+    object-fit: cover;
+    width:270px;
+    height:150px;
+   }
+   .about_blood_camp{
+    width:96%;
+    height:fit-content;
+    background-color:#0000007a;
+    padding:2%;
+    border-radius: 12px;
+    font-size: 17px;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 2%;
+ }
+}
+.ogo{
+  background-color: #49574698;
+}
+
+.form2{
+  width:80%;
+  height:fit-content;
+  background-color: #0e130daf;
+position:relative;
+}
+.form_about{
+  width:96%;
+  height:fit-content;
+  padding:2%;
+  background-color: #0d1649ab;
+  color:white;
+  border-radius: 14px;
+}
+.form456{
+  width:40px;
+  height:40px;
+  outline: none;
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+  margin:3%;
+}
+
+.form11{
+  width:60%;
+  height:0px;
+  /* background-color: red; */
+  transition: all 1s ease-in-out;
+}
+.form2 input[type="checkbox"]:checked ~ .form11{
+  height:200px;
+ background-color: #000000;
+  
+}
+.sy{
+  position:relative;
+  top:0px;
+  left:0px;
+  
+  z-index: 0;
+}
+.symbol4{
+  transform: scale(2);
+  color:red;
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin:3%;
 }
