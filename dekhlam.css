@@ -19,19 +19,16 @@
     background-attachment: fixed;
     position: relative;
     overflow-x: hidden;
-    
-   
   }
   .body::after{
 content:" ";
 position:absolute;
-background-color: rgba(0, 0, 0, 0.733);
+background-color: rgba(2, 2, 2, 0.733);
 top:0px;
 left:0px;
-width:100vw;
+width:90vw;
 height:100vh;
 position:fixed;
-padding:2%;
 z-index: -1;
 overflow: hidden;
   } */
@@ -127,18 +124,7 @@ margin: auto;
   /* .cricket_data{
     font-size: 18px;
    } */
-  body {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    overflow-x: hidden;
-  }
+  
 
 
   #navbar .list{
@@ -599,11 +585,11 @@ width:50vw;
     margin-top:10%;
     display: none;
   } */
-  html{
+  body{
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url("https://w.forfun.com/fetch/21/215e3ddf9d2d722a16e435992d354932.jpeg"); */
+    background-image: url("https://w.forfun.com/fetch/21/215e3ddf9d2d722a16e435992d354932.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -613,16 +599,16 @@ width:50vw;
     
    
   }
-  html::before{
+  .body::before{
 content:" ";
 position:absolute;
 background-color: rgba(0, 0, 0, 0.733);
 top:0px;
 left:0px;
 width:100vw;
-height:100vh;
+height:200vh;
 position:fixed;
-padding:2%;
+
 z-index: -1;
 overflow: hidden;
   }
@@ -653,7 +639,7 @@ overflow: hidden;
   .gh{
     display:none;
   }
-  html {
+  body{
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -667,7 +653,7 @@ overflow: hidden;
     
    
   }
-  html::after{
+  .body::after{
 content:" ";
 position:absolute;
 background-color: rgba(0, 0, 0, 0.733);
@@ -676,7 +662,7 @@ left:0px;
 width:100vw;
 height:100vh;
 position:fixed;
-padding:2%;
+
 z-index: -1;
 overflow: hidden;
   }
