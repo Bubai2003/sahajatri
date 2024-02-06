@@ -188,3 +188,103 @@ function clicking1(){
 pp1.style.opacity="0";
 pp1.style.left="-10%";
 }
+function foci1(){
+    let text="Full Name";
+    var pp4=document.getElementById("b11");
+    pp4.style.color="#0BF057";
+    pp4.style.top="0vh";
+    pp4.style.zIndex="1";
+    pp4.style.padding="1%";
+    pp4.style.borderRadius="12px";
+    pp4.style.backgroundColor="black";
+    document.getElementById("b11").innerHTML=text;
+}
+
+function foci2(){
+    let text="Guardian Name";
+    var pp5=document.getElementById("b12");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b12").innerHTML=text;
+}
+function foci3(){
+    let text="Address";
+    var pp5=document.getElementById("b13");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b13").innerHTML=text;
+}
+function foci4(){
+    let text="Your Contact No";
+    var pp5=document.getElementById("b14");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b14").innerHTML=text;
+}
+function foci5(){
+    let text="Guardian Contact";
+    var pp5=document.getElementById("b15");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b15").innerHTML=text;
+}
+function foci6(){
+    let text="Email Address";
+    var pp5=document.getElementById("b16");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b16").innerHTML=text;
+}
+function foci7(){
+    let text="About";
+    var pp5=document.getElementById("b17");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b17").innerHTML=text;
+}
+function foci8(){
+    let text="Age";
+    var pp5=document.getElementById("b18");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b18").innerHTML=text;
+}
+function foci9(){
+    let text="Gender";
+    var pp5=document.getElementById("b19");
+    pp5.style.color="#F00A68";
+    pp5.style.top="0vh";
+    pp5.style.zIndex="1";
+    pp5.style.padding="0.4%";
+    pp5.style.borderRadius="12px";
+    pp5.style.backgroundColor="black";
+    document.getElementById("b19").innerHTML=text;
+}
